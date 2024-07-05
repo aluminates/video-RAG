@@ -28,7 +28,7 @@ def set_custom_prompt():
 
 def load_llm():
     llm = Ollama(
-        model="tinyllama", # tried out mistral-7b, llama2, tinyllama, phi3
+        model="llama2", # tried out mistral-7b, llama2, tinyllama, phi3
         verbose=True,
         temperature=0.2,
         callback_manager=CallbackManager([StreamingStdOutCallbackHandler()]),
