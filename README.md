@@ -11,5 +11,6 @@ To run this application:
 4) Install llama2 by running this command: ollama run llama2 and then check http://localhost:11434/ for whether Ollama is running.
 5) CD into the local directory and run: pip install -r requirements.txt for dependencies.
 6) Edit the DB_PATH and DATA_PATH variables in the .env file accordingly.
+7) Edit image and Wav2Lip folder paths in front.py accordingly.
 
 To avoid ChromaDB error ---> delete /vectorstore/ contents and run preprocess.py to vectorize your data.
