@@ -9,7 +9,7 @@ langchain-huggingface==0.0.3
 langchain-text-splitters==0.2.0
 langchainhub==0.1.17
 nltk==3.8.1
-python-docx==1.1.2
+python-docx
 python-dotenv==1.0.1
 python-pptx==0.6.23
 pypdf==4.0.0
