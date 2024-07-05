@@ -11,7 +11,7 @@
 6) Edit the DB_PATH and DATA_PATH variables in the .env file accordingly.
 7) Clone this git repository: https://github.com/Rudrabha/Wav2Lip and then replace the audio.py file.
 8) Download the wav2lip_gan.pth file from this link into the checkpoints folder, if not already present: https://iiitaphyd-my.sharepoint.com/:u:/g/personal/radrabha_m_research_iiit_ac_in/EdjI7bZlgApMqsVoEUUXpLsBxqXbn5z8VTmoxp55YNDcIA?e=n9ljGW
-9) Face detection pre-trained model (s3fd.pth) should be downloaded to face_detection/detection/sfd/ using this link, if not already present: https://iiitaphyd-my.sharepoint.com/:u:/g/personal/prajwal_k_research_iiit_ac_in/EZsy6qWuivtDnANIG73iHjIBjMSoojcIV0NULXV-yiuiIg?e=qTasa8
+9) Face detection pre-trained model (s3fd.pth) should be downloaded to face_detection/detection/sfd/ using this link, if not already present: https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth
 10) Edit image and Wav2Lip folder paths in front.py accordingly.
 11) Once all changes are made, run the application using: streamlit run front.py
 
