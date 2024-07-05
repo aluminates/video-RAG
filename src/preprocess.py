@@ -11,6 +11,8 @@ from langchain.text_splitter import NLTKTextSplitter
 from langchain.docstore.document import Document
 from dotenv import load_dotenv
 load_dotenv()
+import nltk
+nltk.download('punkt')
 
 def load_csv_documents(file_path):
     documents = []
