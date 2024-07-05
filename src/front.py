@@ -20,7 +20,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("D:\\Chatbot\\ollama-RAG3\\styles\\style.css")
+local_css("//enter//path//to//your//css//file")
 
 def ensure_temp_dir():
     temp_dir = os.path.join(os.getcwd(), 'temp')
@@ -62,7 +62,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 def generate_lip_sync_video(response, image_file_path):
     audio_file_path = text_to_speech(response)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    wav2lip_path = r"D:\Chatbot\ollama-RAG3\Wav2Lip"
+    wav2lip_path = r"//enter//path//to//your//wav2lip//folder"
     temp_dir = ensure_temp_dir()
 
     output_video_path = os.path.join(temp_dir, f"output_video_{timestamp}.mp4")
@@ -125,7 +125,7 @@ def main():
                         st.write(response)
                         audio_filename = text_to_speech(response)
                         st.audio(audio_filename)
-                        image_file_path = "D:\\Chatbot\\ollama-RAG3\\images\\bot5.jpg"
+                        image_file_path = "//enter//path//to/your//bot//image"
                         output_video_path = generate_lip_sync_video(response, image_file_path)
                         play_lip_sync_video(output_video_path)
 
@@ -143,7 +143,7 @@ def main():
                     st.write(response)
                     audio_filename = text_to_speech(response)
                     st.audio(audio_filename)
-                    image_file_path = "D:\\Chatbot\\ollama-RAG3\\images\\bot5.jpg"
+                    image_file_path = "//enter//path//to//your//image//bot"
                     output_video_path = generate_lip_sync_video(response, image_file_path)
                     play_lip_sync_video(output_video_path)
 
