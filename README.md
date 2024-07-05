@@ -1,5 +1,7 @@
 # Videobot Instructions to Run: 
 
+Make sure you have Visual Build Tools and gcc installed beforehand.
+
 1) Install Python (3.10.11 or below).
 2) Install ChromaDB:
    pip install chromadb // python client
